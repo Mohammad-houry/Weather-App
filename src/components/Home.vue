@@ -115,7 +115,7 @@ $(document).ready(function () {
     const ipAddress = data.ip
     $('#gfg').html(ipAddress)
     fetch(
-      'http://api.weatherapi.com/v1/forecast.json?key=1a203c096ea140559c3144101230907 &q=' +
+      'https://api.weatherapi.com/v1/forecast.json?key=1a203c096ea140559c3144101230907 &q=' +
         ipAddress +
         '&days=10&aqi=no&alerts=no'
     )
